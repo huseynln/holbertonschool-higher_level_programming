@@ -1,0 +1,1 @@
+allah haqqi bos deyil 
