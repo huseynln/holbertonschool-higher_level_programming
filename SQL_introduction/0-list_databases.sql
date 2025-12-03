@@ -1,0 +1,2 @@
+-- fsojdf 
+SHOW DATABASES;
