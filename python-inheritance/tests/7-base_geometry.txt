@@ -1,4 +1,3 @@
-```
 The ``BaseGeometry`` class
 ============================
 
@@ -68,6 +67,12 @@ Test integer_validator with tuple:
     Traceback (most recent call last):
     ...
     TypeError: coords must be an integer
+
+Test integer_validator with set:
+    >>> bg.integer_validator("age", {3, 4})
+    Traceback (most recent call last):
+    ...
+    TypeError: age must be an integer
 
 Test integer_validator with no arguments:
     >>> bg.integer_validator()
