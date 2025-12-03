@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """3243"""
 
+
 def write_file(filename="", text=""):
     """@34324"""
 
