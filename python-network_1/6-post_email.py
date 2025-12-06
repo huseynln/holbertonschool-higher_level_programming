@@ -11,4 +11,3 @@ if __name__ == "__main__":
     data = {"email": mail}
     r = req.post(url, data)
     print(r.text)
-
